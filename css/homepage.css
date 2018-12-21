@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-size: 14px;
+}
+
+.header {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header div {
+
+    font-size: 15px;
+    font-family: monospace;
+    letter-spacing: 8px;
+
+}
+
+.title-header-text {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links div {
+    padding: 8px;
+    width: 150px;
+    text-decoration: none;
+}
+
+.wrapper-outer-wear {
+    margin-top: 30px;
+}
+
+.outer-wear {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.outer-wear-link {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.outer-wear-link,
+.footer1,
+.footer2 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer1 {
+    margin-top: 100px;
+}
+
+.outer-wear-link div,
+.wrapper-outer-wear-links div {
+    padding: 8px;
+    border: 1px #ccc solid;
+    width: 150px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#demo-only {
+    color: white;
+    padding: 8px;
+    border: 1px #ccc solid;
+    width: 100px;
+    text-align: center;
+    background-color: black;
+    border: 2px solid black;
+
+}
+
+.wrapper-tshirt {
+    display: flex;
+}
+
+.wrapper-outer-wear {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.wrapper-outer-wear-links {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.image {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.link1 {
+    height: 50%;
+    width: 50%;
+}
+
+.link2 {
+    height: 50%;
+    width: 50%;
+}
+
+.link3 {
+    height: 50%;
+    width: 50%;
+}
+
+.link4 {
+    height: 50%;
+    width: 50%;
+}
+
+.menu-header {
+    width: 20%
+}
+
+.title-header {
+    width: 60%;
+}
+
+.cart-header {
+    width: 20%;
+}
+
+.cart-image {
+    width: 30px;
+    height: 30px;
+    float: right;
+    padding: -10px;
+    padding-right: 20px;
+}
+
+.menu-icon {
+    width: 30px;
+    height: 30px;
+    visibility: hidden;
+    float: left;
+    padding: 10px;
+}
+
+@media(max-width: 760px) {
+    .image {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .menu-icon {
+        visibility: visible;
+        width: 25px;
+        height: 25px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .outer-wear-link div,
+    .wrapper-outer-wear-links div {
+        padding: 8px;
+        border: 1px #ccc solid;
+        width: 150px;
+        text-align: center;
+        border: 2px solid black;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+@media(max-width:500px) {
+    body {
+        font-size: 12px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+}
+
+@media(max-width:400px) {
+    .cart-image {
+        width: 30px;
+        height: 30px;
+        float: right;
+        padding: 0;
+        margin-top: 10px;
+        padding-right: 11px
+    }
+
+    a {
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/checkoutpage.css">
+    <title>Product Items Page</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="menu-header">
+            <img class="menu-icon" src="images/arrow.png" alt="menu">
+        </div>
+        <div class="title-header">
+            <!-- <p class="title-header-text"><b>SHOP</b></p> -->
+            <a class="title-header" href="../homepage.html">
+                <p class="title-header-text"><b>SHOP</b></p>
+            </a>
+        </div>
+        <div class="cart-header">
+            <img class="cart-image" src="/images/cart.png">
+        </div>
+    </div>
+    <div class="header2">
+        <p><b>Checkout</b></p>
+    </div><br>
+    <div class="header3">
+        <p>Shop is a demo app - form data will not be sent</p>
+    </div>
+    <div class="grid">
+        <div class="grid-3">
+            <p class="margin"><b>Account Information</b></p><br>
+            <form class="margin font" name="1stbox">
+                Email:
+                <input type="text" name="email">
+                <br><br>
+                Phone Number:
+                <input type="text" name="phone number"><br><br><br>
+                <p><b>Shipping Address :</b></p><br>
+                Address:
+                <input type="text" name="Address"><br><br>
+                City:
+                <input type="text" name="city"><br><br>
+                State:
+                <input type="text" name="state"><br><br>
+                Zip code:
+                <input type="text" name="zip"><br><br>
+                Country:
+                <input type="text" name="country">
+            </form>
+
+
+        </div>
+        <div class="grid-4">
+            <p class="margin"><b>Payment method</b></p><br>
+            <form class="margin font" name="payment method">
+                Card Holder Name:
+                <input type="text" name="card holder name"><br><br>
+                Card Number:
+                <input type="text" name="card number"><br><br>
+                <p><b>Expiry :</b></p><br>
+                <select name="month">
+                    <option value="jan">Jan</option>
+                    <option value="feb">Feb</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="jun">Jun</option>
+                    <option value="july">July</option>
+                    <option value="aug">Aug</option>
+                    <option value="sep">Sep</option>
+                    <option value="oct">Oct</option>
+                    <option value="nov">Nov</option>
+                    <option value="dec">Dec</option>
+                </select>
+                <select name="year">
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                    <option value="2028">2028</option>
+                    <option value="2029">2029</option>
+                </select><br><br>
+                cvv: <input type="text" name="cvv">
+
+            </form><br><br><br>
+            <p class="margin"><b>Order Summary</b></p>
+            <p class="margin">Vastrm Hoodie <span class="sp1">$200.00</span> </p>
+            <p class="margin">Men's Tech Shell Full-Zip <span class="sp2">$200.80</span> </p>
+            <p class="margin">Total <span class="sp3">$400.80</span> </p>
+            <br><br>
+            <a class="margin add" href="#" style="color:black">PLACE ORDER</a>
+        </div>
+        <div class="grid-5">
+            <p class="margin"><b>Billing Address</b></p><br>
+            <form name="checkbox" class="margin">
+                <input type="checkbox" name="vehicle1" value="Bike"> Use different billing address
+                <br><br>
+                Address:<input type="text" name="Address"><br><br>
+                City:<input type="text" name="city"><br><br>
+                State:<input type="text" name="state"><br><br>
+                Zip code:<input type="text" name="zip code"><br><br>
+                Country:<input type="text" name="country">
+            </form>
+        </div>
+    </div>
+
+    <div class="footer1">
+        <a href="#" style="color:black">Made By polymer</a>
+    </div>
+    <div class="footer2">
+        <p id="demo">Demo only</p>
+    </div>
+</body>
+
+</html>
